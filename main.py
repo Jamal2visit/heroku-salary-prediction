@@ -20,5 +20,5 @@ def predict():
     return render_template('base.html', predicted_value = f'Employee salary will be ${round(prediction[0],2)}')
 
 
-
-app.run(debug=True)
+if __name__ == '__main__':
+    app.run(debug=True)
