@@ -23,5 +23,5 @@ regressor.fit(x,y)
 
 joblib.dump(regressor,'deploy_test.pkl')
 
-# print(regressor.predict([[10,7,7]]))
+##print(regressor.predict([[10,7,7]]))
 
